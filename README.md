@@ -2,6 +2,9 @@
 - Swiss Knife
 - Complete Automated Cross Platform Fuzzing and Vulnerability Assessment Suite
 
+# License
+- EULA
+
 # ScreenShot
 <div align="center">
     <img src="https://i.ibb.co/VBRLtq0/up2.png"</img> 
@@ -24,7 +27,7 @@
 5C. SINGLE TO DOUBLE ENCODE
 5D. OBFUSCATION ENCODE
 
-# Increase
+# Payloads
 - Add, Remove payloads
 
 # Fine Tune
@@ -35,6 +38,8 @@
 - --form tag
 - --output recorder
 
+# Installation
+- gem install watir 
 
 # Run
 - chmod u+x *
