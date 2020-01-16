@@ -34,6 +34,7 @@
 # Cross Site Scripting Assessment
 - Notifies if any xss reflection found
 - Notifies if any kind of obfuscated xss payload reflection found
+- Full DOM xss support
 
 # Advanced Payloads
 - Add, Remove common to advanced payloads
