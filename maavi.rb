@@ -16,7 +16,8 @@ usage = <<TEXT
 
 
 +--- 				Fuzzing and Vulnerability Assessment Suite 			---+
-+--- 		    Find   Commons | OWASP | XSS | CSRF | SSRF | Template Injection 		---+
++--- 		    Find   Commons | OWASP | PHP | XSS | CSRF | SSRF | Template Injection	---+
++--- 				Programmer: Haroon Awan / mrharoonawan@gmail.com 		---+
 
 
 
@@ -32,7 +33,7 @@ File.open(domxssfile, "r") do |f|
   f.each_line do |line|
     testurl = victim.sub 'fuzz', line 
     browser.goto testurl
-    sleep(4)
+    sleep(2)
     if browser.alert.exists?
         puts "[+] Reflection Found - Payload was : #{line}, at URL: #{testurl}"
         browser.alert.close
