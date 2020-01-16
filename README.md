@@ -64,5 +64,8 @@
 # Link
 Https://github.com/haroonawanofficial/maavi
 
-# Collaborate
-If anyone want to implement new features, commit
+# Donate
+- Send request to mrharoonawan@gmail.com
+
+# Contact
+- mrharoonawan@gmail.com
