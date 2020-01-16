@@ -1,10 +1,6 @@
 # Maavi
 - Fuzzing and Vulnerablity Assessment Suite
 
-# Run
-- chmod u+x *
-- ./maavi.sh
-
 # ScreenShot
 <div align="center">
     <img src="https://i.ibb.co/VBRLtq0/up2.png"</img> 
@@ -38,8 +34,13 @@
 - --form tag
 - --output recorder
 
+
+# Run
+- chmod u+x *
+- ./maavi.sh
+
 # Link
 Https://github.com/haroonawanofficial/maavi
 
 # Collaborate
-If anyone want to implement new features, commit in github
+If anyone want to implement new features, commit
