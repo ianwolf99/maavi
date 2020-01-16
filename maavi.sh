@@ -20,8 +20,10 @@ Payload : XSS, Csrf, Ssrf, SSI, OWASP top 10, PHP Injections,
 banner
  echo "";
  echo -e "$red [$green+$red]  1:$off Waf Firewall Identification "; 
- echo -e "$red [$green+$red]  2:$off Load Suite ";
- echo -e "$red [$green+$red]  3:$off Load Suite behind Tor ";
+ echo -e "$red [$green+$red]  1:$off Load Suite  ";
+ echo -e "$red [$green+$red]  2:$off Load Suite behind Tor ";
+ echo -e "$red [$green+$red]  3:$off Load Suite using OWASP Top 10 All in 1 Injection ";
+ echo -e "$red [$green+$red]  5:$off Load Suite using OWASP Top 10 All in 1 Injection behind Tor ";
  echo "";
  echo -ne "$red [$green+$red] Select An Option   : $off " ;
  read Option
@@ -36,7 +38,7 @@ banner
  then
  echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
  read victim
- ruby maavi.rb fuzzpayloads $victim"phpfuzz"
+ ruby maavi.rb fuzzpayloads $victim"fuzz"
     fi
 
      if [ $Option -eq "3" ]
@@ -47,3 +49,20 @@ banner
  sleep 10
  ruby maavi.rb fuzzpayloads $victim"fuzz"
     fi
+
+     if [ $Option -eq "4" ]
+ then
+ echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ read victim
+ ruby maavi.rb owasptop10allin1injections $victim"phpfuzz"
+    fi
+
+     if [ $Option -eq "5" ]
+ then
+ echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ read victim
+ xterm -e tor
+ sleep 10
+ ruby maavi.rb owasptop10allin1injections $victim"fuzz"
+    fi
+
