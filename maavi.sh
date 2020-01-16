@@ -65,4 +65,3 @@ banner
  sleep 10
  ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
-
