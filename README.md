@@ -30,8 +30,11 @@
 5C. SINGLE TO DOUBLE ENCODE
 5D. OBFUSCATION ENCODE
 
-# Payloads
-- Add, Remove payloads
+# Cross Site Scripting Assessment
+- Maavi notifies if any xss reflection is found
+
+# Advanced Payloads
+- Add, Remove common to advanced payloads
 
 # Fine Tune
 - Fine tune what payload worked or blocked
