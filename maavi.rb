@@ -18,6 +18,12 @@ usage = <<TEXT
 +--- 				Fuzzing and Vulnerability Assessment Suite 			---+
 +--- 		    Find   Commons | OWASP | PHP | XSS | CSRF | SSRF | Template Injection	---+
 +--- 				Programmer: Haroon Awan / mrharoonawan@gmail.com 		---+
++---						::::Usage::::					---+
++---				  'fuzz' is a string for payload to inject  			---+
++--- 		    Usage1: ruby maavi.rb fuzzpayloads https://www.example.com/?id=fuzz		---+
++--- 		    Usage2: ruby maavi.rb fuzzpayloads https://www.example.com/fuzz	        ---+
++--- 		    Usage3: ruby maavi.rb fuzzpayloads https://www.example.com/index.php/fuzz   ---+
++--- 		    Usage4: ruby maavi.rb fuzzpayloads https://www.example.com/index.php#fuzz   ---+
 
 
 
