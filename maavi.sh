@@ -54,7 +54,7 @@ banner
  then
  echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
  read victim
- ruby maavi.rb owasptop10allin1injections $victim"phpfuzz"
+ ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
 
      if [ $Option -eq "5" ]
