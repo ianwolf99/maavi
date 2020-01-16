@@ -33,9 +33,10 @@
 - HEXA DECIMENAL ENCODE
 - SINGLE TO DOUBLE ENCODE
 - OBFUSCATION ENCODE
+- More....
 
 # Parameters, Web, Dom, Directory
-- Maavi can work anything
+- Maavi can work on anything
 
 # Cross Site Scripting Assessment
 - Notifies if any ordinary xss, xss obfuscated, advanced payloads, or waf bypass payloads, reflections are found
