@@ -15,21 +15,21 @@
 - https://m.facebook.com/story.php?story_fbid=499162314119947&id=329284291107751
 
 # Brief Introduction
-- Advantage, automatic get, post tunning and we can get complete information if target parameter is vulnerable to common or advanced payloads.
-- We don't need seperate tools to test common vulnerablities. This is all in one tool. 
+- Automatic get, post tunning for parameters
+- Get complete information if target parameter is vulnerable to common or advanced payloads
+- This is all in one tool for common or advanced payloads
 
 # Vulnerablities Assessment
-- Automatically scan/fuzz for Advanced Vulnerabilities
-- Automatically scan/fuzz for common OWASP TOP Vulnerabilities for:
-1. PHP
-2. SSI
-3. COMMAND/TEMPLATE INJECTIONS
-4. LFI,RFI
-5. ENCODED
-5A. Base 64 ENCODE
-5B. HEXA DECIMENAL ENCODE
-5C. SINGLE TO DOUBLE ENCODE
-5D. OBFUSCATION ENCODE
+- Automatically scan/fuzz for common to r Advanced Vulnerabilities to OWASP TOP Vulnerabilities for
+- 1. PHP
+- 2. SSI
+- 3. COMMAND/TEMPLATE INJECTIONS
+- 4. LFI,RFI
+- 5. ENCODED
+- 5A. Base 64 ENCODE
+- 5B. HEXA DECIMENAL ENCODE
+- 5C. SINGLE TO DOUBLE ENCODE
+- 5D. OBFUSCATION ENCODE
 
 # Cross Site Scripting Assessment
 - Notifies if any xss reflection found
