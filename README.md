@@ -1,5 +1,6 @@
 # Maavi
-- Fuzzing and Vulnerablity Assessment Suite
+- Swiss Knife
+- Complete Automated Cross Platform Fuzzing and Vulnerability Assessment Suite
 
 # ScreenShot
 <div align="center">
