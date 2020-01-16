@@ -47,7 +47,7 @@ banner
  read victim
  xterm -e tor
  sleep 10
- ruby maavi.rb fuzzpayloads $victim"fuzz"
+ proxychains ruby maavi.rb fuzzpayloads $victim"fuzz"
     fi
 
      if [ $Option -eq "4" ]
@@ -63,5 +63,5 @@ banner
  read victim
  xterm -e tor
  sleep 10
- ruby maavi.rb owasptop10allin1injections $victim"fuzz"
+ proxychains ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
