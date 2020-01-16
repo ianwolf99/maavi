@@ -32,7 +32,8 @@
 5D. OBFUSCATION ENCODE
 
 # Cross Site Scripting Assessment
-- Maavi notifies if any xss reflection is found
+- Notifies if any xss reflection found
+- Notifies if any kind of obfuscated xss payload reflection found
 
 # Advanced Payloads
 - Add, Remove common to advanced payloads
