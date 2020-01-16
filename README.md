@@ -15,8 +15,8 @@
 - We don't need seperate tools to test common vulnerablities. This is all in one tool. 
 
 # Vulnerablities Assessment
-- If owasp top 10 vulnerablities are passed, it means we need manually fine tune our paylaods
-- Automatically scan/fuzz for common OWASP TOP vulnerabilities for:
+- Automatically scan/fuzz for Advanced Vulnerabilities
+- Automatically scan/fuzz for common OWASP TOP Vulnerabilities for:
 1. PHP
 2. SSI
 3. COMMAND/TEMPLATE INJECTIONS
