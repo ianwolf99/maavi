@@ -15,13 +15,15 @@
 - https://m.facebook.com/story.php?story_fbid=499162314119947&id=329284291107751
 
 # Brief Introduction
-- Automatic get, post tunning for parameters
-- Get complete information if target parameter is vulnerable to common or advanced payloads
-- This is all in one tool for common or advanced payloads
+- This is all in one tool for common to advanced to OWASP TOP 10 Vulnerabilities to obfuscated payloads identifcation
+- It saves time and provide true results
+- It shows what kind of dangers is lurking into your web or paramter
 
 # Vulnerablities Assessment
-- Automatically scan/fuzz for common to r Advanced Vulnerabilities to OWASP TOP Vulnerabilities for
+- Automatically scan/fuzz for common to Advanced Vulnerabilities to OWASP TOP 10 Vulnerabilities for
 - PHP
+- Obfuscated strings
+- Buffer Overflows
 - SSI
 - COMMAND/TEMPLATE INJECTIONS
 - LFI,RFI
@@ -32,9 +34,11 @@
 - SINGLE TO DOUBLE ENCODE
 - OBFUSCATION ENCODE
 
+# Parameters, Web, Dom, Directory
+- Maavi can work anything
+
 # Cross Site Scripting Assessment
-- Notifies if any xss reflection found
-- Notifies if any kind of obfuscated xss payload reflection found
+- Notifies if any ordinary xss, xss obfuscated, advanced payloads, or waf bypass payloads, reflections are found
 - Full DOM xss support
 
 # Payloads
