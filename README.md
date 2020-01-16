@@ -33,34 +33,13 @@
 # Fine Tune
 - Fine tune what payload worked or blocked
 
-Todo:
---data tag
---form tag
---output recorder
+# Todo
+- --data tag
+- --form tag
+- --output recorder
 
-Link:
+# Link
 Https://github.com/haroonawanofficial/maavi
 
 #Collaborate
 If anyone want to implement new features, commit in github
-
-# Features
-- Maavi is a new concept to scan for fuzzing to vulnerabilities searching to fine tuning any payload
-
-# Payloads
-- Maavi helps in:
-- XSS
-- Csrf
-- Ssrf
-- SSI
-- OWASP top 10
-- PHP Injections
-- Bufferoverflows
-- Redirects
-- Open Redirects  
-- Add anything
-- more....
-
-# Fine Tune
-- See what payload worked and what don't filter on the fly and fine tune then simply inject
-
