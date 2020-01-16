@@ -1,6 +1,16 @@
 # Maavi
 - Maavi is Fuzzing and Vulnerability Assessment Suite
 
+# How to run?
+- chmod u+x *
+- ./maavi.sh
+
+# ScreenShot
+<div align="center">
+    <img src="https://i.ibb.co/VBRLtq0/up2.png"</img> 
+</div>
+
+
 # Features
 - Maavi is a new concept to scan for fuzzing to vulnerabilities searching to fine tuning any payload
 
