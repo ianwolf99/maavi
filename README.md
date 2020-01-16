@@ -10,6 +10,9 @@
     <img src="https://i.ibb.co/VBRLtq0/up2.png"</img> 
 </div>
 
+# Video
+- https://m.facebook.com/story.php?story_fbid=499162314119947&id=329284291107751
+
 # Brief Introduction
 - Advantage, automatic get, post tunning and we can get complete information if target parameter is vulnerable to common or advanced payloads.
 - We don't need seperate tools to test common vulnerablities. This is all in one tool. 
