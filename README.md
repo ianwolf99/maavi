@@ -31,7 +31,7 @@
 - Add, Remove payloads
 
 # Fine Tune
-- Find tune what payload worked or blocked
+- Fine tune what payload worked or blocked
 
 Todo:
 --data tag
