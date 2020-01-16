@@ -11,7 +11,7 @@
 </div>
 
 # Brief Introduction
-- Advantage, automatic get, post tunning and we can get complete information if target parameter is Vulnerable to common or advanced issues.
+- Advantage, automatic get, post tunning and we can get complete information if target parameter is vulnerable to common or advanced issues.
 - We don't need seperate tools to test common vulnerablities. This is all in one tool. 
 
 # Vulnerablities Assessment
