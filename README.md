@@ -1,7 +1,7 @@
 # Maavi
 - Maavi is Fuzzing and Vulnerability Assessment Suite
 
-# How to run?
+# Run
 - chmod u+x *
 - ./maavi.sh
 
@@ -30,7 +30,4 @@
 
 # Fine Tune
 - See what payload worked and what don't filter on the fly and fine tune then simply inject
-
-# Run
-./maavi.sh
 
