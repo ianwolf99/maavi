@@ -15,7 +15,7 @@ usage = <<TEXT
 ,8'         `         `8.`8888. .8'       `8. `88888. .8'       `8. `88888. `8.`           8 8888 
 
 
-+--- 				Fuzzing and Vulnerability Assessment Suite 			---+
++--- 				Fuzzing and Vulnerabilities Assessment Suite 			---+
 +--- 		    Find   Commons | OWASP | PHP | XSS | CSRF | SSRF | Template Injection	---+
 +--- 				Programmer: Haroon Awan / mrharoonawan@gmail.com 		---+
 +---						::::Usage::::					---+
