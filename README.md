@@ -2,7 +2,7 @@
 - Maavi is Fuzzing and Vulnerability Assessment Suite
 
 # Features
-- Maavi is a new concept to all kinds of scan for fuzzing to vulnerabilities searching to fine tuning your payloads
+- Maavi is a new concept to scan for fuzzing to vulnerabilities searching to fine tuning any payload
 
 # Payloads
 - Maavi helps in:
