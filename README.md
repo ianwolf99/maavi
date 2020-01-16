@@ -21,23 +21,25 @@
 
 # Vulnerablities Assessment
 - Automatically scan/fuzz for common to r Advanced Vulnerabilities to OWASP TOP Vulnerabilities for
-- 1. PHP
-- 2. SSI
-- 3. COMMAND/TEMPLATE INJECTIONS
-- 4. LFI,RFI
-- 5. ENCODED
-- 5A. Base 64 ENCODE
-- 5B. HEXA DECIMENAL ENCODE
-- 5C. SINGLE TO DOUBLE ENCODE
-- 5D. OBFUSCATION ENCODE
+- PHP
+- SSI
+- COMMAND/TEMPLATE INJECTIONS
+- LFI,RFI
+- SQL
+- ENCODED
+- Base 64 ENCODE
+- HEXA DECIMENAL ENCODE
+- SINGLE TO DOUBLE ENCODE
+- OBFUSCATION ENCODE
 
 # Cross Site Scripting Assessment
 - Notifies if any xss reflection found
 - Notifies if any kind of obfuscated xss payload reflection found
 - Full DOM xss support
 
-# Advanced Payloads
-- Add, Remove common to advanced payloads
+# Payloads
+- Add, Remove common to advanced to owasp top 10 to obfuscated payloads
+- Where other software fails to inject advanced payloads or manually inject your payloads, Maavi will work!
 
 # Fine Tune
 - Fine tune what payload worked or blocked
