@@ -11,7 +11,7 @@
 </div>
 
 # Brief Introduction
-- Advantage, automatic get, post tunning and we can get complete information if target parameter is vulnerable to common or advanced issues.
+- Advantage, automatic get, post tunning and we can get complete information if target parameter is vulnerable to common or advanced payloads.
 - We don't need seperate tools to test common vulnerablities. This is all in one tool. 
 
 # Vulnerablities Assessment
@@ -41,8 +41,9 @@ Todo:
 Link:
 Https://github.com/haroonawanofficial/maavi
 
-Collaborate:
+#Collaborate
 If anyone want to implement new features, commit in github
+
 # Features
 - Maavi is a new concept to scan for fuzzing to vulnerabilities searching to fine tuning any payload
 
