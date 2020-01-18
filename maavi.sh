@@ -44,7 +44,7 @@ banner
 
      if [ $Option -eq "3" ]
  then
- ruby maavi.rb
+ ruby maaviproxy.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  sudo killall tor
@@ -63,7 +63,7 @@ banner
 
      if [ $Option -eq "5" ]
  then
- ruby maavi.rb
+ ruby maaviproxy.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  sudo killall tor
