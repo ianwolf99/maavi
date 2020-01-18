@@ -5,6 +5,7 @@ cd wafw00f
 python setup.py install
 cd ..
 gem install colorize
+gem install minitest
 gem install watir
 mkdir assessment
 mkdir xss
