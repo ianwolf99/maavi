@@ -6,13 +6,21 @@
 # License
 - EULA
 
-# ScreenShot
+# ScreenShots
 <div align="center">
     <img src="https://i.ibb.co/qgc13zK/m1.png"</img> 
 </div>
 
 <div align="center">
     <img src="https://i.ibb.co/RNF4Jdw/m2.png"</img> 
+</div>
+
+<div align="center">
+    <img src="https://i.ibb.co/GJPzmG8/m4.png"</img> 
+</div>
+
+<div align="center">
+    <img src="https://i.ibb.co/L8FX4Qy/m5.png"</img> 
 </div>
 
 
