@@ -4,6 +4,7 @@ git clone https://github.com/EnableSecurity/wafw00f.git
 cd wafw00f
 python setup.py install
 cd ..
+gem install colorize
 gem install watir
 mkdir assessment
 mkdir xss
