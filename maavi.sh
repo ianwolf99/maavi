@@ -47,9 +47,10 @@ banner
  ruby maavi.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
+ sudo killall tor
  xterm -e tor &
  sleep 10
- proxychains ruby maavi.rb fuzzpayloads $victim"fuzz"
+ ruby maaviproxy.rb fuzzpayloads $victim"fuzz"
     fi
 
      if [ $Option -eq "4" ]
@@ -57,7 +58,7 @@ banner
  ruby maavi.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
- ruby maavi.rb owasptop10allin1injections $victim"fuzz"
+ proxychains ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
 
      if [ $Option -eq "5" ]
@@ -65,7 +66,8 @@ banner
  ruby maavi.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
+ sudo killall tor
  xterm -e tor &
  sleep 10
- proxychains ruby maavi.rb owasptop10allin1injections $victim"fuzz"
+ proxychains ruby maaviproxy.rb owasptop10allin1injections $victim"fuzz" &
     fi
