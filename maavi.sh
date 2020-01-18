@@ -29,21 +29,23 @@ banner
  read Option
      if [ $Option -eq "1" ]
  then
- echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  wafw00f $victim
      fi
 
      if [ $Option -eq "2" ]
  then
- echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ ruby maavi.rb
+ echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  ruby maavi.rb fuzzpayloads $victim"fuzz"
     fi
 
      if [ $Option -eq "3" ]
  then
- echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ ruby maavi.rb
+ echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  xterm -e tor
  sleep 10
@@ -52,14 +54,16 @@ banner
 
      if [ $Option -eq "4" ]
  then
- echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ ruby maavi.rb
+ echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
 
      if [ $Option -eq "5" ]
  then
- echo -ne "$red [$green+$red] Enter Absolute Url : $off ";
+ ruby maavi.rb
+ echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
  xterm -e tor
  sleep 10
