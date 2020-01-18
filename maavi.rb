@@ -35,12 +35,12 @@ puts "[>]  Starting Auto Injections ".cyan
 browser = Watir::Browser.new :firefox
 domxssfile = ARGV[0]
 victim = ARGV[1]
+	puts "[>]  Saving Assessments Injections Screenshots ".cyan
 File.open(domxssfile, "r") do |f|
   f.each_line do |line|
     testurl = victim.sub 'fuzz', line 
     browser.goto testurl
     sleep(2)
-	puts "[>]  Saving Assessments Injections Screenshots ".cyan
         screenshot_file = "assessment/assessment-results-#{Time.now.strftime('%Y%m%d-%H%M%S')}.png"
         browser.driver.save_screenshot(screenshot_file)        
     if browser.alert.exists?
