@@ -47,7 +47,7 @@ banner
  ruby maavi.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
- xterm -e tor
+ xterm -e tor &
  sleep 10
  proxychains ruby maavi.rb fuzzpayloads $victim"fuzz"
     fi
@@ -65,7 +65,7 @@ banner
  ruby maavi.rb
  echo -ne "$red[$green+$red] Enter Absolute Url : $off ";
  read victim
- xterm -e tor
+ xterm -e tor &
  sleep 10
  proxychains ruby maavi.rb owasptop10allin1injections $victim"fuzz"
     fi
