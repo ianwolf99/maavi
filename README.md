@@ -8,8 +8,13 @@
 
 # ScreenShot
 <div align="center">
-    <img src="https://i.ibb.co/VBRLtq0/up2.png"</img> 
+    <img src="https://i.ibb.co/qgc13zK/m1.png"</img> 
 </div>
+
+<div align="center">
+    <img src="https://i.ibb.co/RNF4Jdw/m2.png"</img> 
+</div>
+
 
 # Video
 - https://m.facebook.com/story.php?story_fbid=499162314119947&id=329284291107751
