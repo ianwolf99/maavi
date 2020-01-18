@@ -1,6 +1,5 @@
 # Maavi
-- New and next level concept
-- Swiss Knife
+- Next level concept with Swiss Knife Powers
 - Complete Automated Cross Platform Fuzzing and Vulnerability Assessment Suite
 
 # License
@@ -30,6 +29,10 @@
 # Brief Introduction
 - This is all in one tool for common to advanced to OWASP TOP 10 Vulnerabilities to obfuscated payloads identifcation
 - It saves time and provide true results and shows what kind of dangers is lurking into your web &/or paramter
+
+# Proxy suport
+- Automatically configured to run test on any website using Tor power
+- Settings are automatically handled
 
 # Vulnerablities Assessment
 - Automatically scan/fuzz for common to Advanced Vulnerabilities to OWASP TOP 10 Vulnerabilities for
