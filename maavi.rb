@@ -1,7 +1,5 @@
 require "watir"
 usage = <<TEXT
-
-
           .         .                                                                             
          ,8.       ,8.                   .8.                   .8. `8.`888b           ,8'  8 8888 
         ,888.     ,888.                 .888.                 .888. `8.`888b         ,8'   8 8888 
@@ -13,8 +11,6 @@ usage = <<TEXT
   ,8'     `8.`'     `8.`8888.     .8'   `8. `88888.     .8'   `8. `88888. `8.`888'         8 8888 
  ,8'       `8        `8.`8888.   .888888888. `88888.   .888888888. `88888. `8.`8'          8 8888 
 ,8'         `         `8.`8888. .8'       `8. `88888. .8'       `8. `88888. `8.`           8 8888 
-
-
 +--- 				Fuzzing and Vulnerabilities Assessment Suite 			---+
 +--- 		    Find   Commons | OWASP | PHP | XSS | CSRF | SSRF | Template Injection	---+
 +--- 				Programmer: Haroon Awan / mrharoonawan@gmail.com 		---+
@@ -24,9 +20,6 @@ usage = <<TEXT
 +--- 		    Usage2: ruby maavi.rb fuzzpayloads https://www.example.com/fuzz	        ---+
 +--- 		    Usage3: ruby maavi.rb fuzzpayloads https://www.example.com/index.php/fuzz   ---+
 +--- 		    Usage4: ruby maavi.rb fuzzpayloads https://www.example.com/index.php#fuzz   ---+
-
-
-
 TEXT
 if ARGV.empty?
   puts usage
@@ -40,8 +33,12 @@ File.open(domxssfile, "r") do |f|
     testurl = victim.sub 'fuzz', line 
     browser.goto testurl
     sleep(2)
+        screenshot_file = "assessment/assessment-results-#{Time.now.strftime('%Y%m%d-%H%M%S')}.png"
+        browser.driver.save_screenshot(screenshot_file)        
     if browser.alert.exists?
         puts "[+] Reflection Found - Payload was : #{line}, at URL: #{testurl}"
+        screenshot_file = "xss/xss-results-#{Time.now.strftime('%Y%m%d-%H%M%S')}.png"
+        browser.driver.save_screenshot(screenshot_file)        
         browser.alert.close
     end
   end
