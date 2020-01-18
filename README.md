@@ -16,8 +16,7 @@
 
 # Brief Introduction
 - This is all in one tool for common to advanced to OWASP TOP 10 Vulnerabilities to obfuscated payloads identifcation
-- It saves time and provide true results
-- It shows what kind of dangers is lurking into your web or paramter
+- It saves time and provide true results and shows what kind of dangers is lurking into your web &/or paramter
 
 # Vulnerablities Assessment
 - Automatically scan/fuzz for common to Advanced Vulnerabilities to OWASP TOP 10 Vulnerabilities for
@@ -36,33 +35,30 @@
 - More....
 
 # Parameters, Web, Dom, Directory
-- Maavi can work on anything
+- Maavi can work on anything including DOM
 
 # Cross Site Scripting Assessment
 - Notifies if any ordinary xss, xss obfuscated, advanced payloads, or waf bypass payloads, reflections are found
-- Full DOM xss support
 
 # Payloads
 - Add, Remove common to advanced to owasp top 10 to obfuscated payloads
 - Where other software fails to inject advanced payloads or manually inject your payloads, Maavi will work!
 
-# Fine Tune
-- Fine tune what payload worked or blocked
+# Recorder
+- Complete history for successful payloads
+- Complete history for unsuccessful payloads
+- Complete history for bypassed payloads
+- Complete history for blocked payloads
 
-# Todo
-- --data tag
-- --form tag
-- --output recorder
+# Fine Tune
+- Fine tune your payloads and inject
 
 # Installation
-- gem install watir 
+- chmod u+x *
+./installer.sh
 
 # Run
-- chmod u+x *
 - ./maavi.sh
-
-# Link
-Https://github.com/haroonawanofficial/maavi
 
 # Donate
 - Send request to mrharoonawan@gmail.com
