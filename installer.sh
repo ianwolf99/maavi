@@ -10,5 +10,6 @@ mkdir assessment
 mkdir xss
 chmod u+x assessment/
 chmod u+x xss/
+echo 'HTTPTunnelPort 9080' > /etc/tor/torrc
 echo -e "[>] Installed and Configured";
 echo -e "[>] run ./maavi.sh";
